@@ -15,6 +15,7 @@
 			./modules/packages.nix
 			./modules/gnome.nix
 			./modules/zsh.nix
+			./modules/fastfetch.nix
         ];
       };
     };
