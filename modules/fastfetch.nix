@@ -1,10 +1,7 @@
 { pkgs, ... }:
 
 {
-  # Install the fastfetch package system-wide
   environment.systemPackages = [ pkgs.fastfetch ];
-
-  # Write the config directly to the global/system-wide fastfetch config directory
   environment.etc."fastfetch/config.jsonc".text = ''
     {
       "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
