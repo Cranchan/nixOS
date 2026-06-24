@@ -9,7 +9,6 @@
    
     # CLI applications
     micro
-    fastfetch
     btop
     curl
     wget
