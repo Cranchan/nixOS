@@ -13,7 +13,7 @@
 			./modules/hardware-configuration.nix
 			./modules/configuration.nix
 			./modules/packages.nix
-			./modules/gnome.nix
+			./modules/xfce.nix
 			./modules/zsh.nix
 			./modules/fastfetch.nix
         ];
