@@ -10,7 +10,11 @@
       nixos = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
-			./modules/default.nix
+			./modules/hardware-configuration.nix
+			./modules/configuration.nix
+			./modules/packages.nix
+			./modules/gnome.nix
+			./modules/zsh.nix
         ];
       };
     };
