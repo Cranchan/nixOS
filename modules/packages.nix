@@ -12,6 +12,7 @@
     btop
     curl
     wget
+    git
     tmux
 	catimg
     
