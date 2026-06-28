@@ -18,7 +18,6 @@
           ./hosts/t14/configuration.nix
           ./modules/packages.nix
           ./modules/zsh.nix
-          ./modules/fastfetch.nix
           ./modules/gnome.nix
           
           home-manager.nixosModules.home-manager

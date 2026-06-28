@@ -5,11 +5,11 @@
   # Do not change this value unless you have read the changelog of a newer version.
   # It controls state version compatibility.
   home.stateVersion = "26.05"; 
-
-  home.packages = with pkgs; [
-  
+	
+	imports = [
+  	./modules/fastfetch.nix
   ];
-
+    
   programs.git.settings = {
     enable = true;
     user.name = "cranchan";
