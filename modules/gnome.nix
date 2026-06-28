@@ -21,7 +21,8 @@
     nautilus
     rewaita
     gnome-tweaks
-    gedit        
+    gedit 
+    gnome-text-editor       
     
     # Icons
     papirus-icon-theme
