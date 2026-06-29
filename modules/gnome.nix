@@ -19,7 +19,6 @@
     # Gnome Software
     ptyxis
     nautilus
-    rewaita
     gnome-tweaks
     gedit 
     gnome-text-editor       

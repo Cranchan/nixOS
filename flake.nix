@@ -8,9 +8,11 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nix-flatpak.url = "github:gmodena/nix-flatpak";
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs:
+  outputs = { self, nixpkgs, home-manager, nix-flatpak, ... }@inputs:
     let
       user = "cranchan";
       email = "klusignolo54@gmail.com";
@@ -29,7 +31,9 @@
           ./modules/gaming.nix
           ./modules/virtualization.nix
           ./modules/apps.nix
+          ./modules/flatpak.nix
           
+          nix-flatpak.nixosModules.nix-flatpak
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
