@@ -34,7 +34,8 @@
     gnomeExtensions.blur-my-shell
     gnomeExtensions.dash-to-dock
     gnomeExtensions.middle-click-to-close-in-overview
-    gnomeExtensions.user-themes  
+    gnomeExtensions.user-themes
+    gnomeExtensions.caffeine
   ];
 
   # --- User-Level Home Manager Settings ---
@@ -58,6 +59,7 @@
           pkgs.gnomeExtensions.dash-to-dock.extensionUuid
           pkgs.gnomeExtensions.blur-my-shell.extensionUuid
           pkgs.gnomeExtensions.middle-click-to-close-in-overview.extensionUuid
+          pkgs.gnomeExtensions.caffeine.extensionUuid
         ];
       };
 
