@@ -10,6 +10,7 @@
     }];
     packages = [
       "io.github.swordpuffin.rewaita"
+      "io.github.swordpuffin.wardrobe"
     ];
   };
 }
