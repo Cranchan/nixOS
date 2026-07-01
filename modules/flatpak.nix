@@ -13,11 +13,11 @@
       "io.github.swordpuffin.wardrobe"
       "org.mozilla.firefox"
       "dev.vencord.Vesktop"
-      "com.spotify.Client"
       "org.gimp.GIMP"
       "org.libreoffice.LibreOffice"
       "org.prismlauncher.PrismLauncher"
       "com.adamcake.Bolt"
+      "com.github.tchx84.Flatseal"
     ];
     overrides = {
       "com.spotify.Client".Context.sockets = [ "x11" "!wayland" "!fallback-x11" ];
