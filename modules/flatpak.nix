@@ -12,7 +12,6 @@
       "io.github.swordpuffin.rewaita"
       "io.github.swordpuffin.wardrobe"
       "org.mozilla.firefox"
-      "dev.vencord.Vesktop"
       "org.gimp.GIMP"
       "org.libreoffice.LibreOffice"
       "org.prismlauncher.PrismLauncher"

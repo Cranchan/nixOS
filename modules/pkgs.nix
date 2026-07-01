@@ -6,6 +6,7 @@
   environment.systemPackages = with pkgs; [
 
 		spotify
+		vesktop
 
     # CLI Tools
     micro
